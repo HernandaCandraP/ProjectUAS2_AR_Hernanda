@@ -99,6 +99,7 @@ public class gameController : MonoBehaviour
 
     public void hidePanel(){
 		GuiPanel.SetActive(false);
+        GuiHidePanel.SetActive(false);
         soundClick();
 	}
 
